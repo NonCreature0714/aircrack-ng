@@ -39,7 +39,7 @@ dnl program, then also delete it here.
 
 AC_DEFUN([AIRCRACK_NG_WINDOWS],[
 AX_REQUIRE_DEFINED([AC_CHECK_HEADER])[]dnl
-AC_REQUIRE_DEFINED([AX_COMPILER_VENDOR])dnl
+AX_REQUIRE_DEFINED([AX_COMPILER_VENDOR])dnl
 
 case "$host_os" in
     CYGWIN*|MSYS*|cygwin*|msys*)
